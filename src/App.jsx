@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Search from "./components/Search";
 import Stats from "./components/Stats";
 import Featured from "./components/Featured";
+import Learning from "./components/Learning";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Search />
       <Stats />
       <Featured />
+      <Learning />
     </>
   );
 }
