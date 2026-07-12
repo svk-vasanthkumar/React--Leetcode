@@ -6,6 +6,7 @@ import Featured from "./components/Featured";
 import Learning from "./components/Learning";
 import Contest from "./components/Contest";
 import Companies from "./components/Companies";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Learning />
       <Companies />
        <Contest />
+       <Testimonials />
     </>
   );
 }
