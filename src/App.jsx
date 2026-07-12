@@ -4,7 +4,7 @@ import Search from "./components/Search";
 import Stats from "./components/Stats";
 import Featured from "./components/Featured";
 import Learning from "./components/Learning";
-
+import Contest from "./components/Contest";
 import Companies from "./components/Companies";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
       <Featured />
       <Learning />
       <Companies />
+       <Contest />
     </>
   );
 }
