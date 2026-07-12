@@ -5,6 +5,8 @@ import Stats from "./components/Stats";
 import Featured from "./components/Featured";
 import Learning from "./components/Learning";
 
+import Companies from "./components/Companies";
+
 function App() {
   return (
     <>
@@ -14,6 +16,7 @@ function App() {
       <Stats />
       <Featured />
       <Learning />
+      <Companies />
     </>
   );
 }
