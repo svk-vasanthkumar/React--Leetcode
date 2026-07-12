@@ -1,9 +1,9 @@
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <h2>LeetCode Clone</h2>
 
-      <ul>
+      <ul className="nav-links">
         <li>Home</li>
         <li>Problems</li>
         <li>Contest</li>
@@ -11,7 +11,7 @@ function Navbar() {
         <li>About</li>
       </ul>
 
-      <div>
+      <div className="nav-actions">
         <button>Sign In</button>
         <button>Register</button>
       </div>

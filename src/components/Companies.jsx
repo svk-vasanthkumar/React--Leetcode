@@ -1,9 +1,9 @@
 function Companies() {
   return (
-    <section>
+    <section className="companies">
       <h2>Top Companies</h2>
 
-      <div>
+      <div className="company-container">
         <h3>Google</h3>
         <h3>Microsoft</h3>
         <h3>Amazon</h3>

@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <h2>LeetCode Clone</h2>
 
       <p>Learn • Practice • Compete • Grow</p>
